@@ -72,6 +72,9 @@ def directors_totals(nds)
   # Be sure to return the result at the end!
   grand_total = 0 
   row_index = 0 
-  
+  while row_index < directors_database.length do 
+    column_index = 0 
+    while column_index < directors_database[row_index].length do
+      
   nil
 end
