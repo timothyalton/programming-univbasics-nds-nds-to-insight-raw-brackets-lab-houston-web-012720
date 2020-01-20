@@ -2,7 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 require 'pp'
 
-directors_database
+=begin directors_database
 => [{:name=>"Stephen Spielberg",
   :movies=>
    [{:title=>"Jaws",
@@ -50,7 +50,7 @@ directors_database
     {:title=>"You, Me and Dupree",
      :studio=>"Universal",
      :worldwide_gross=>75628110,
-     :release_year=>2006},
+     :release_year=>2006}, =end 
      
 
 def directors_totals(nds)
