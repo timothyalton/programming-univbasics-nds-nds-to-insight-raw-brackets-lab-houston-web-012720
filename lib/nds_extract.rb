@@ -3,7 +3,7 @@ require 'directors_database'
 require 'pp'
 
 def directors_totals(nds)
-  director_index = 0
+  row_index = 0
   totals = {}
 
   while director_index < nds.length do
