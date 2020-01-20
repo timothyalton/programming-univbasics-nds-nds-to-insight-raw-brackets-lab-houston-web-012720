@@ -27,6 +27,30 @@ directors_database
      :release_year=>1993},
     {:title=>"Lincoln",
      :studio=>"Buena Vista",
+     :worldwide_gross=>182207973,
+     :release_year=>2012}]},
+ {:name=>"Russo Brothers",
+  :movies=>
+   [{:title=>"Avengers Endgame",
+     :studio=>"Buena Vista",
+     :worldwide_gross=>858371337,
+     :release_year=>2019},
+    {:title=>"Avengers Infinity War",
+     :studio=>"Buena Vista",
+     :worldwide_gross=>678815482,
+     :release_year=>2018},
+    {:title=>"Captain America Civil War",
+     :studio=>"Buena Vista",
+     :worldwide_gross=>408084349,
+     :release_year=>2016},
+    {:title=>"Captain America The Winter Soldier",
+     :studio=>"Buena Vista",
+     :worldwide_gross=>259766572,
+     :release_year=>2014},
+    {:title=>"You, Me and Dupree",
+     :studio=>"Universal",
+     :worldwide_gross=>75628110,
+     :release_year=>2006},
      
 
 def directors_totals(nds)
@@ -46,5 +70,8 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
+  grand_total = 0 
+  row_index = 0 
+  
   nil
 end
